@@ -3,29 +3,233 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Nickesha's Coding Portfolio</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f8f3e9;
+            color: #17232d;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #17232d;
+            color: white;
+            text-align: center;
+            padding: 55px 20px;
+        }
+
+        header h1 {
+            font-size: 36px;
+        }
+
+        header p {
+            color: #e5dcd0;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 35px 20px;
+        }
+
+        main > h2 {
+            text-align: center;
+            color: #c83232;
+            margin-bottom: 30px;
+        }
+
+        .project {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 30px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px #17232d15;
+        }
+
+        .project h3 {
+            color: #c83232;
+            font-size: 24px;
+        }
+
+        .project img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: contain;
+            background-color: #eee9e2;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+
+        .project h4 {
+            margin-bottom: 5px;
+        }
+
+        .project a {
+            display: inline-block;
+            background-color: #c83232;
+            color: white;
+            text-decoration: none;
+            padding: 10px 18px;
+            border-radius: 20px;
+            margin-top: 10px;
+        }
+
+        .project a:hover {
+            background-color: #17232d;
+        }
+
+        footer {
+            background-color: #17232d;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 28px;
+            }
+
+            .project {
+                padding: 18px;
+            }
+        }
+    </style>
 </head>
+
 <body>
+
     <header>
         <h1>Welcome to My Coding Portfolio</h1>
         <p>My journey in coding, game design, and interactive media.</p>
+        <p>Created by Nickesha Norris | PROG 102</p>
     </header>
 
     <main>
+
         <h2>My Projects</h2>
 
-        <section>
-            <h3>LOVE | A Biblical Reflection</h3>
+        <!-- PROJECT 1: COLOR CHANGING DICE -->
+
+        <section class="project">
+            <h3>01. Color Changing Dice</h3>
+
+            <img src="images/dice-screenshot.png"
+                 alt="Screenshot of my Color Changing Dice project">
+
+            <h4>Project Description</h4>
+
+            <p>
+                This project explores interactive programming
+                through a color-changing dice application.
+                It demonstrates how JavaScript can be used
+                to create visual changes and interactive
+                experiences on a webpage.
+            </p>
+
+            <h4>Technical Information</h4>
+
+            <p>
+                HTML5, CSS3, and JavaScript.
+            </p>
+
+            <a href="https://nickeshanorris143-ux.github.io/ColorChangingDice/"
+               target="_blank">
+                View Project
+            </a>
+        </section>
+
+
+        <!-- PROJECT 2: LOVE -->
+
+        <section class="project">
+            <h3>02. LOVE | A Biblical Reflection</h3>
+
+            <img src="images/love-screenshot.png"
+                 alt="Screenshot of my LOVE Biblical Reflection website">
+
+            <h4>Project Description</h4>
+
             <p>
                 An interactive website inspired by
                 1 Corinthians 13:4–7, exploring patience,
                 respect, truth, and hope.
+                This project combines my interest in
+                creative design, personal expression,
+                and biblical reflection.
             </p>
-            <a href="https://nickeshanorris143-ux.github.io/LOVE-A-Biblical-Reflection/">
+
+            <h4>Technical Information</h4>
+
+            <p>
+                HTML5 for webpage structure,
+                CSS3 for visual styling, and
+                JavaScript for interactive navigation.
+            </p>
+
+            <a href="https://nickeshanorris143-ux.github.io/LOVE-A-Biblical-Reflection/"
+               target="_blank">
                 View Project
             </a>
         </section>
+
+
+        <!-- PROJECT 3: LIMIT THE LIMITATIONS -->
+
+        <section class="project">
+            <h3>03. Limit the Limitations</h3>
+
+            <img src="images/limitations-screenshot.png"
+                 alt="Screenshot of my Limit the Limitations website">
+
+            <h4>Project Description</h4>
+
+            <p>
+                Limit the Limitations is a semester project
+                exploring the challenges and restrictions
+                faced by international students pursuing
+                higher education in the United States.
+
+                The website examines the human impact of
+                immigration policies, visa restrictions,
+                SEVIS records, and practical training
+                opportunities. It also highlights the
+                broader effects on universities and
+                the American economy.
+
+                The goal is to encourage awareness,
+                reflection, and conversations about
+                educational opportunities for
+                international students.
+            </p>
+
+            <h4>Technical Information</h4>
+
+            <p>
+                HTML5 for content and website structure,
+                CSS3 for layout and responsive styling,
+                and JavaScript for interactive buttons,
+                navigation highlighting, and visitor feedback.
+            </p>
+
+        </section>
+
     </main>
+
+    <footer>
+        <p>Nickesha Norris | Coding Portfolio | 2026</p>
+    </footer>
+
 </body>
 </html>
+
+   
 
