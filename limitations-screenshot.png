@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!--
+Title: Limit the Limitations
+Description: An interactive project about international students in the U.S.
+Author: Nickesha Norris
+-->
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Limit the Limitations</title>
+
+<link rel="stylesheet" href="../Style.css/Style.css" />
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#story">The Human Impact</a>
+    <a href="#policies">The Restrictions</a>
+    <a href="#impact">The Bigger Picture</a>
+    <a href="#conclusion">Take Action</a>
+  </nav>
+
+  <main>
+
+    <!-- Opening section -->
+    <section id="home">
+      <h1>LIMIT <span>THE</span><br>LIMITATIONS</h1>
+
+      <p>
+        Breaking down barriers to international
+        education in the United States.
+      </p>
+
+<button onclick="showMessage('How can the United States protect its immigration system while giving international students a fair opportunity to study, learn, and contribute?')">
+  Reflect on the Issue
+</button>
+        Explore the Issue
+      </button>
+    </section>
+
+    <!-- Student story -->
+    <section id="story">
+      <h2>The Human Impact</h2>
+
+      <blockquote>
+        “It felt like my dreams had collapsed.”
+      </blockquote>
+
+      <p>
+        Andre Fa’aosa shared these words in a 2025
+        interview with The Guardian, highlighting
+        the impact immigration policies can have
+        on international students.
+      </p>
+
+      <p>
+        For many students, studying in the United
+        States represents an opportunity to pursue
+        their goals and build better futures.
+        However, immigration restrictions can
+        create uncertainty about their education
+        and opportunities.
+      </p>
+    </section>
+
+    <!-- Policy cards -->
+    <section id="policies">
+      <h2>Explore the Restrictions</h2>
+
+      <p>
+        Select a topic to learn more about
+        potential barriers facing international students.
+      </p>
+
+      <div class="card">
+        <h3>Visa Restrictions</h3>
+        <p>
+          Visa decisions and delays may affect
+          students' ability to enter the country
+          and begin their studies.
+        </p>
+        <button onclick="showMessage('Visa restrictions can affect students’ ability to travel and begin their education. Check current official guidance for details.')">
+          Learn More
+        </button>
+      </div>
+
+      <div class="card">
+        <h3>SEVIS Records</h3>
+        <p>
+          SEVIS records help track international
+          students' immigration status.
+        </p>
+        <button onclick="showMessage('Changes to a student’s SEVIS record can have serious consequences. Students should consult their designated school official for guidance.')">
+          Learn More
+        </button>
+      </div>
+
+      <div class="card">
+        <h3>CPT and OPT</h3>
+        <p>
+          Practical training programs can provide
+          eligible students with opportunities
+          for work experience related to their studies.
+        </p>
+        <button onclick="showMessage('Curricular Practical Training (CPT) and Optional Practical Training (OPT) have different eligibility requirements. Verify current rules before drawing conclusions about proposed changes.')">
+          Learn More
+        </button>
+      </div>
+    </section>
+
+    <!-- Wider impact -->
+    <section id="impact">
+      <h2>The Bigger Picture</h2>
+
+      <p>
+        The effects of international student
+        restrictions may extend beyond individual
+        students to universities and the economy.
+      </p>
+
+      <div class="statistic">
+        <strong>30%–40%</strong>
+        <p>
+          Projected decline in new international
+          student enrollment, according to the
+          analysis discussed in this project.
+        </p>
+      </div>
+
+      <div class="statistic">
+        <strong>$43 billion</strong>
+        <p>
+          Estimated annual contribution of
+          international students to the U.S. economy,
+          according to NAFSA.
+        </p>
+      </div>
+
+      <p>
+        Add citations and links to the original
+        reports here before submitting your project.
+      </p>
+    </section>
+
+    <!-- Conclusion -->
+    <section id="conclusion">
+      <h2>A More Inclusive Future</h2>
+
+      <p>
+        Limiting unnecessary restrictions on
+        international students is about protecting
+        educational opportunities, supporting
+        universities, and recognizing students'
+        contributions to American society.
+      </p>
+
+      <p>
+        How can the U.S. protect its interests while
+        preserving educational opportunities for
+        international students?
+      </p>
+
+      <button onclick="showMessage('Thank you for exploring this issue. Consider how fair and informed policies could reduce unnecessary barriers to international education.')">
+        Reflect on the Issue
+      </button>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Limit the Limitations | Sources and research</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
